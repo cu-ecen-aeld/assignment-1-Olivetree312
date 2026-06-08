@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ $# -ne 2]; then
+if [ $# -ne 2 ]; then
 	echo "Error: expected 2 args: filesdir and searchstr"
 	exit 1
 fi
